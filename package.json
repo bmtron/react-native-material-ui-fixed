@@ -1,5 +1,5 @@
 {
-  "name": "react-native-material-ui",
+  "name": "react-native-material-ui-updated",
   "version": "0.0.1",
   "description": "React Native Material Design Components",
   "main": "./index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xotahal/react-native-material-ui"
+    "url": "https://github.com/bmtron/react-native-material-ui-fixed"
   },
   "jest": {
     "preset": "react-native",
@@ -27,18 +27,21 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xotahal/react-native-material-ui/issues"
+    "url": "https://github.com/bmtron/react-native-material-ui-fixed"
   },
-  "homepage": "https://github.com/xotahal/react-native-material-ui",
+  "homepage": "https://github.com/bmtron/react-native-material-ui-fixed",
   "peerDependencies": {
     "react": "*",
     "react-native": "*",
-    "react-native-vector-icons": "^6.0.2"
+    "react-native-vector-icons": "^10.0.2"
   },
   "dependencies": {
     "color": "3.1.0",
+    "deprecated-react-native-prop-types": "^5.0.0",
     "hoist-non-react-statics": "^2.5.5",
+    "i": "^0.3.7",
     "lodash.merge": "^4.0.0",
+    "npm": "^10.9.2",
     "prop-types": "^15.5.10",
     "react-native-material-design-styles": "^0.2.6"
   },
@@ -59,10 +62,10 @@
     "eslint-plugin-react-native": "^3.5.0",
     "jest": "23.6.0",
     "prettier": "1.14.3",
-    "react": "16.4.1",
-    "react-native": "0.57.4",
-    "react-native-vector-icons": "^6.0.2",
-    "react-test-renderer": "16.4.1",
+    "react": "18.3.1",
+    "react-native": "0.76.4",
+    "react-native-vector-icons": "10.0.2",
+    "react-test-renderer": "18.3.1",
     "semantic-release": "^15.13.3"
   }
 }
